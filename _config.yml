@@ -31,12 +31,15 @@ instagram_username: xie_shenyi
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
 
 header_pages:
-  - _pages/Home.md
-  - _pages/cv.md
+  - _pages/index.markdown
+  - _pages/cv.markdown
+
+include:
+  - _pages
+plugins:
+  - jekyll-feed
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
